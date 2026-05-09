@@ -2,13 +2,7 @@
 
 # ignore .vscode folder
 .vscode
-data/
-mysql/
-db/
-*.db
-__pycache__/
-venv/
-.git/
+
 # dependencies
 /node_modules
 /.pnp
