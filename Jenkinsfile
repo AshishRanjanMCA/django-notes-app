@@ -6,6 +6,7 @@ pipeline{
     stages{
          stage ("code"){
          steps{
+             sh "whoami"
              script{
                  git_clone("https://github.com/AshishRanjanMCA/django-notes-app.git", "main")
              }
